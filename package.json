@@ -1,0 +1,61 @@
+{
+  "name": "math",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Math for Fun",
+  "keywords": [
+    "Math",
+    "Math is Fun"
+  ],
+  "author": "Theodore Chu",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheodoreChu/Math.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheodoreChu/Math/issues"
+  },
+  "homepage": "https://github.com/TheodoreChu/Math",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/TheodoreChu"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start --port=3300",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "ship": "GIT_USER=TheodoreChu USE_SSH=true docusaurus deploy",
+    "pretty": "prettier --write 'src/**/*.{html,css,js,jsx,json}' 'docs/**/*.{md,mdx,js,jsx}' sidebars.js docusaurus.config.js"
+  },
+  "dependencies": {
+    "@docusaurus/core": "2.0.0-alpha.66",
+    "@docusaurus/plugin-client-redirects": "2.0.0-alpha.66",
+    "@docusaurus/preset-classic": "2.0.0-alpha.66",
+    "@mdx-js/react": "^1.5.8",
+    "clsx": "^1.1.1",
+    "dotenv": "^8.2.0",
+    "prettier": "2.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-table": "^7.6.0",
+    "rehype-katex": "^4.0.0",
+    "remark-math": "^3.0.1",
+    "remark-toc": "^7.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
