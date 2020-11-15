@@ -5,7 +5,7 @@ const toc = require('remark-toc');
 module.exports = {
   title: 'Math for Fun',
   tagline: 'Celebrate, study, and enjoy Math',
-  url: 'https://math.theochu.com',
+  url: 'https://mathforfun.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/smooth-curve-1x.png',
@@ -15,7 +15,7 @@ module.exports = {
     announcementBar: {
       id: 'supportus',
       content:
-        '⭐ Math is Fun 😄 If you see any issues, please <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheodoreChu/Math/issues">report them on GitHub</a>. 👋🏼', //
+        '⭐ Math is Fun 😄 If you see any issues or need help, please <a target="_blank" rel="noopener noreferrer" href="https://github.com/TheodoreChu/Math/issues">open an issue on GitHub</a>. 👋🏼', //
     },
     image: 'img/smooth-curve-512h.png',
     algolia: {
@@ -98,7 +98,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://theochu.com/contact/">Theodore Chu.</a> 👋🏼 All rights reserved. 🙂`,
+      copyright: `Math for Fun is a project by <a href="https://theochu.com/contact/">Theodore Chu.</a> 👋🏼 Copyright © ${new Date().getFullYear()}. All rights reserved. 🙂`,
     },
   },
   stylesheets: [
@@ -111,10 +111,10 @@ module.exports = {
     },
   ],
   scripts: [
-    // Plausible Analytics: https://plausible.io/math.theochu.com
+    // Plausible Analytics: https://plausible.io/mathforfun.org
     {
-      'data-domain': 'math.theochu.com',
-      src: 'https://whz9ruftvh4pxz8fc7vh.theochu.com/js/index.js',
+      'data-domain': 'mathforfun.org',
+      src: 'https://whz9ruftvh4pxz8fc7vh.mathforfun.org/js/index.js',
       async: true,
       defer: true,
     },
